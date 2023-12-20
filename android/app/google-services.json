@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "970002585360",
+    "project_id": "soda-5th",
+    "storage_bucket": "soda-5th.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970002585360:android:955df79b080f4c44fd7795",
+        "android_client_info": {
+          "package_name": "com.example.welcome_to_soda_5th"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvd56yf3qfNSTp0i57Byke5acL708iIwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
