@@ -58,10 +58,10 @@ class _HomePageState extends State<HomePage> {
                 Image.asset(
                   'assets/image/soda_logo.png',
                   width: size.width,
-                  height: size.height * 0.5,
+                  height: size.height * 0.4,
                 ),
                 const Padding(
-                  padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                  padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                   child: Title(),
                 ),
                 AnimatedOpacity(
@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                         textEditingController: _textEditingController,
                       ),
                       const SizedBox(
-                        height: 50,
+                        height: 30,
                       ),
                       const RegisterButton(),
                     ],
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Container(
                   margin: const EdgeInsets.symmetric(vertical: 20),
-                  height: 200,
+                  height: size.height * 0.4,
                   child: const NewRegisterList(),
                 ),
               ],
